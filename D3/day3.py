@@ -11,7 +11,6 @@ dictHigh = dict(zip(alphabetUpArray, priorityHighList))
 mergedDict = {**dictLow, **dictHigh}
 
 totalPoints = 0
-countLines = 0
 groups = []
 
 def findPoints(myFirstCompartiment, mySecondCompartiment):
@@ -38,4 +37,3 @@ with open('input.txt') as f:
             groups = []
         
     print(totalPoints)
-       
